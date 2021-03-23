@@ -1,0 +1,14 @@
+Deutsche Bank today announced the launch of GEM Connect, a component-based solution designed to address workflow challenges across collections, payments, funding and FX in APAC markets with capital restrictions.
+
+Developed by the bank’s Corporate Bank and Fixed Income & Currencies business units in APAC, GEM Connect links treasury processes together into automated workflows, simplifying complex processes for clients moving money to, from and across markets with capital restrictions.
+
+Using any combination of GEM Connect’s components, such as its rules-based FX execution tool and payment and hedge matching solution, Deutsche Bank is able to provide a one-stop liquidity and FX management solution for its clients in emerging markets such as India, Indonesia, Korea, Mainland China, Malaysia, Philippines, Taiwan and Thailand.
+
+Use cases can include:
+- Target balance automation to support up and downstream cross-border intra-company payments, with or without an account to streamline liquidity or commercial payment objectives. 
+- Automated reconciliation of payments and collections against FX hedge contracts to speed up cross-border settlements, reduce hedging costs and achieve operational efficiency.
+- Automated execution of onshore payments or receipts with a hedge adjustment to reduce basis risk and periods of open market risk for FX execution outside Asia time zones.
+
+GEM Connect will also be rolled out in other emerging markets outside of the region.
+
+APAC Head of Corporate Bank and Fixed Income & Currencies, David Lynne, said: “By removing manual processes and currency risk in intra-company cross-border transactions involving emerging markets, Deutsche Bank addresses real problems faced by our corporate clients. GEM Connect is a turning point. It will play a key role in helping treasurers to better manage their liquidity both at group and subsidiary levels. We will continue to invest in integrated platform technology in order to provide seamless client solutions.”
