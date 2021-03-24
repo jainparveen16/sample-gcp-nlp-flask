@@ -1,0 +1,468 @@
+[
+	{
+		"name": "GEM Connect",
+		"type": "OTHER",
+		"Salience": 0.16463160514831544
+	},
+	{
+		"name": "Deutsche Bank",
+		"type": "ORGANIZATION",
+		"Salience": 0.1362982988357544,
+		"wikipedia_url": "https://en.wikipedia.org/wiki/Deutsche_Bank",
+		"mid": "/m/02lc8s"
+	},
+	{
+		"name": "launch",
+		"type": "EVENT",
+		"Salience": 0.07637941092252732
+	},
+	{
+		"name": "FX",
+		"type": "ORGANIZATION",
+		"Salience": 0.06344559788703919,
+		"wikipedia_url": "https://en.wikipedia.org/wiki/Foreign_exchange_market",
+		"mid": "/m/02_cz4"
+	},
+	{
+		"name": "Currencies",
+		"type": "OTHER",
+		"Salience": 0.04726384952664375
+	},
+	{
+		"name": "payments",
+		"type": "OTHER",
+		"Salience": 0.040844518691301349
+	},
+	{
+		"name": "markets",
+		"type": "OTHER",
+		"Salience": 0.040844518691301349
+	},
+	{
+		"name": "capital restrictions",
+		"type": "OTHER",
+		"Salience": 0.03130190074443817
+	},
+	{
+		"name": "collections",
+		"type": "WORK_OF_ART",
+		"Salience": 0.03130190074443817
+	},
+	{
+		"name": "funding",
+		"type": "OTHER",
+		"Salience": 0.02754680998623371
+	},
+	{
+		"name": "workflow challenges",
+		"type": "OTHER",
+		"Salience": 0.02754680998623371
+	},
+	{
+		"name": "APAC",
+		"type": "OTHER",
+		"Salience": 0.026619235053658487,
+		"wikipedia_url": "https://en.wikipedia.org/wiki/Asia-Pacific",
+		"mid": "/m/055yrc"
+	},
+	{
+		"name": "bank",
+		"type": "ORGANIZATION",
+		"Salience": 0.019807280972599984
+	},
+	{
+		"name": "Corporate Bank",
+		"type": "ORGANIZATION",
+		"Salience": 0.019807280972599984
+	},
+	{
+		"name": "GEM Connect",
+		"type": "ORGANIZATION",
+		"Salience": 0.014606268145143986
+	},
+	{
+		"name": "markets",
+		"type": "OTHER",
+		"Salience": 0.007535427343100309
+	},
+	{
+		"name": "clients",
+		"type": "PERSON",
+		"Salience": 0.006768438965082169
+	},
+	{
+		"name": "treasury processes",
+		"type": "OTHER",
+		"Salience": 0.006303197238594294
+	},
+	{
+		"name": "processes",
+		"type": "OTHER",
+		"Salience": 0.006303197238594294
+	},
+	{
+		"name": "workflows",
+		"type": "OTHER",
+		"Salience": 0.005750124342739582
+	},
+	{
+		"name": "capital restrictions",
+		"type": "OTHER",
+		"Salience": 0.005750124342739582
+	},
+	{
+		"name": "Fixed Income",
+		"type": "OTHER",
+		"Salience": 0.005750124342739582
+	},
+	{
+		"name": "payments",
+		"type": "OTHER",
+		"Salience": 0.005106612574309111
+	},
+	{
+		"name": "combination",
+		"type": "OTHER",
+		"Salience": 0.005088818725198507
+	},
+	{
+		"name": "payment",
+		"type": "OTHER",
+		"Salience": 0.005062123294919729
+	},
+	{
+		"name": "markets",
+		"type": "OTHER",
+		"Salience": 0.005062123294919729
+	},
+	{
+		"name": "money",
+		"type": "OTHER",
+		"Salience": 0.005051788408309221
+	},
+	{
+		"name": "treasurers",
+		"type": "PERSON",
+		"Salience": 0.004758070223033428
+	},
+	{
+		"name": "payments",
+		"type": "OTHER",
+		"Salience": 0.004672977142035961
+	},
+	{
+		"name": "payments",
+		"type": "OTHER",
+		"Salience": 0.004662520717829466
+	},
+	{
+		"name": "hedge",
+		"type": "OTHER",
+		"Salience": 0.004546256270259619
+	},
+	{
+		"name": "solution",
+		"type": "OTHER",
+		"Salience": 0.004546256270259619
+	},
+	{
+		"name": "clients",
+		"type": "PERSON",
+		"Salience": 0.004546256270259619
+	},
+	{
+		"name": "business units",
+		"type": "OTHER",
+		"Salience": 0.004306011367589235
+	},
+	{
+		"name": "execution",
+		"type": "OTHER",
+		"Salience": 0.004233409184962511
+	},
+	{
+		"name": "liquidity",
+		"type": "OTHER",
+		"Salience": 0.004233409184962511
+	},
+	{
+		"name": "liquidity",
+		"type": "OTHER",
+		"Salience": 0.003918568138033152
+	},
+	{
+		"name": "execution",
+		"type": "OTHER",
+		"Salience": 0.0038990864995867016
+	},
+	{
+		"name": "components",
+		"type": "OTHER",
+		"Salience": 0.0038615684024989607
+	},
+	{
+		"name": "collections",
+		"type": "OTHER",
+		"Salience": 0.0035645351745188238
+	},
+	{
+		"name": "emerging markets",
+		"type": "OTHER",
+		"Salience": 0.0035019724164158108
+	},
+	{
+		"name": "management solution",
+		"type": "OTHER",
+		"Salience": 0.0034690843895077707
+	},
+	{
+		"name": "balance automation",
+		"type": "OTHER",
+		"Salience": 0.0034220092929899694
+	},
+	{
+		"name": "cases",
+		"type": "OTHER",
+		"Salience": 0.0034220092929899694
+	},
+	{
+		"name": "account",
+		"type": "OTHER",
+		"Salience": 0.0034220092929899694
+	},
+	{
+		"name": "tool",
+		"type": "OTHER",
+		"Salience": 0.0033921694848686458
+	},
+	{
+		"name": "clients",
+		"type": "PERSON",
+		"Salience": 0.0031448244117200376
+	},
+	{
+		"name": "payment objectives",
+		"type": "OTHER",
+		"Salience": 0.003139785025268793
+	},
+	{
+		"name": "hedging costs",
+		"type": "OTHER",
+		"Salience": 0.0031311812344938518
+	},
+	{
+		"name": "efficiency",
+		"type": "OTHER",
+		"Salience": 0.0031311812344938518
+	},
+	{
+		"name": "reconciliation",
+		"type": "OTHER",
+		"Salience": 0.0031311812344938518
+	},
+	{
+		"name": "settlements",
+		"type": "OTHER",
+		"Salience": 0.0031311812344938518
+	},
+	{
+		"name": "FX hedge contracts",
+		"type": "OTHER",
+		"Salience": 0.0031311812344938518
+	},
+	{
+		"name": "receipts",
+		"type": "OTHER",
+		"Salience": 0.0031241688411682846
+	},
+	{
+		"name": "currency risk",
+		"type": "OTHER",
+		"Salience": 0.0029282625764608385
+	},
+	{
+		"name": "manual processes",
+		"type": "OTHER",
+		"Salience": 0.0029282625764608385
+	},
+	{
+		"name": "Fixed Income",
+		"type": "OTHER",
+		"Salience": 0.002670892747119069
+	},
+	{
+		"name": "transactions",
+		"type": "OTHER",
+		"Salience": 0.0023460439406335356
+	},
+	{
+		"name": "problems",
+		"type": "OTHER",
+		"Salience": 0.0023460439406335356
+	},
+	{
+		"name": "liquidity",
+		"type": "OTHER",
+		"Salience": 0.002044013701379299
+	},
+	{
+		"name": "Malaysia",
+		"type": "LOCATION",
+		"Salience": 0.0020301113836467268,
+		"mid": "/m/09pmkv",
+		"wikipedia_url": "https://en.wikipedia.org/wiki/Malaysia"
+	},
+	{
+		"name": "Thailand",
+		"type": "LOCATION",
+		"Salience": 0.0020301113836467268,
+		"mid": "/m/07f1x",
+		"wikipedia_url": "https://en.wikipedia.org/wiki/Thailand"
+	},
+	{
+		"name": "Philippines",
+		"type": "LOCATION",
+		"Salience": 0.0020301113836467268,
+		"mid": "/m/05v8c",
+		"wikipedia_url": "https://en.wikipedia.org/wiki/Philippines"
+	},
+	{
+		"name": "Taiwan",
+		"type": "LOCATION",
+		"Salience": 0.0020301113836467268,
+		"mid": "/m/06f32",
+		"wikipedia_url": "https://en.wikipedia.org/wiki/Taiwan"
+	},
+	{
+		"name": "Indonesia",
+		"type": "LOCATION",
+		"Salience": 0.0020301113836467268
+	},
+	{
+		"name": "Korea",
+		"type": "LOCATION",
+		"Salience": 0.0020301113836467268
+	},
+	{
+		"name": "Mainland China",
+		"type": "LOCATION",
+		"Salience": 0.0020301113836467268
+	},
+	{
+		"name": "India",
+		"type": "LOCATION",
+		"Salience": 0.0020301113836467268,
+		"wikipedia_url": "https://en.wikipedia.org/wiki/India",
+		"mid": "/m/03rk0"
+	},
+	{
+		"name": "Target",
+		"type": "ORGANIZATION",
+		"Salience": 0.002022937871515751,
+		"mid": "/m/01b39j",
+		"wikipedia_url": "https://en.wikipedia.org/wiki/Target_Corporation"
+	},
+	{
+		"name": "client solutions",
+		"type": "OTHER",
+		"Salience": 0.0016726530157029629
+	},
+	{
+		"name": "group",
+		"type": "ORGANIZATION",
+		"Salience": 0.0016374519327655435
+	},
+	{
+		"name": "levels",
+		"type": "OTHER",
+		"Salience": 0.0016374519327655435
+	},
+	{
+		"name": "subsidiary",
+		"type": "ORGANIZATION",
+		"Salience": 0.0016374519327655435
+	},
+	{
+		"name": "platform technology",
+		"type": "OTHER",
+		"Salience": 0.0016355323605239392
+	},
+	{
+		"name": "order",
+		"type": "OTHER",
+		"Salience": 0.0016355323605239392
+	},
+	{
+		"name": "markets",
+		"type": "OTHER",
+		"Salience": 0.0015383708523586393
+	},
+	{
+		"name": "Corporate Bank",
+		"type": "ORGANIZATION",
+		"Salience": 0.0015358446398749948
+	},
+	{
+		"name": "David Lynne",
+		"type": "PERSON",
+		"Salience": 0.0013865447835996748
+	},
+	{
+		"name": "basis risk",
+		"type": "OTHER",
+		"Salience": 0.001288565923459828
+	},
+	{
+		"name": "open market risk",
+		"type": "OTHER",
+		"Salience": 0.001288565923459828
+	},
+	{
+		"name": "execution",
+		"type": "OTHER",
+		"Salience": 0.001288565923459828
+	},
+	{
+		"name": "hedge adjustment",
+		"type": "OTHER",
+		"Salience": 0.00103218131698668
+	},
+	{
+		"name": "time zones",
+		"type": "LOCATION",
+		"Salience": 0.00103218131698668
+	},
+	{
+		"name": "region",
+		"type": "LOCATION",
+		"Salience": 0.0010302242590114475
+	},
+	{
+		"name": "Head",
+		"type": "PERSON",
+		"Salience": 0.0009552938863635063
+	},
+	{
+		"name": "role",
+		"type": "OTHER",
+		"Salience": 0.0008018328808248043
+	},
+	{
+		"name": "APAC",
+		"type": "ORGANIZATION",
+		"Salience": 0.0007586896535940468
+	},
+	{
+		"name": "Asia",
+		"type": "LOCATION",
+		"Salience": 0.0006098558660596609,
+		"mid": "/m/0j0k",
+		"wikipedia_url": "https://en.wikipedia.org/wiki/Asia"
+	},
+	{
+		"name": "one",
+		"type": "NUMBER",
+		"Salience": 0.0,
+		"value": "1"
+	}
+]
