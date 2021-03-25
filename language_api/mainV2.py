@@ -9,6 +9,10 @@ from google.cloud import language_v1 as language
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from matplotlib import style
+<<<<<<< Updated upstream
+=======
+from google.cloud import language_v1
+>>>>>>> Stashed changes
 from google.cloud import datastore
 import time
 
@@ -50,8 +54,13 @@ def upload_text():
     # Analyse sentiment using Sentiment API call
     #sentiment = analyze_text_sentiment(text)[0].get('sentiment score')
 
-    sentence_sentiment = analyze_text_sentiment(text)
-    sentiment = sentence_sentiment[0].get('sentiment score')
+    results = analyze_text_sentiment(text)
+    print("results: ",results)
+    sentiment = results["overallResults"].get('score')
+    print("sentiment in upload_text(): ",sentiment)
+    
+    sentence_sentiment = results["sentence_sentiment"]
+
     df_sentiment = pd.DataFrame(sentence_sentiment)
     df_sentiment
     gcp_plot_sentiments(df_sentiment)
@@ -83,7 +92,7 @@ def upload_text():
 
     # Construct the new entity using the key. Set dictionary values for entity
     entity = datastore.Entity(key)
-    entity["text"] = text
+    entity["file_name"] = file_name
     entity["timestamp"] = current_datetime
     entity["sentiment"] = overall_sentiment
 
@@ -113,11 +122,14 @@ def analyze_text_sentiment(text):
     response = client.analyze_sentiment(document=document)
 
     sentiment = response.document_sentiment
-    results = dict(
+    overallResults = dict(
         text=text,
-        score=f"{sentiment.score:.1%}",
-        magnitude=f"{sentiment.magnitude:.1%}",
+        score=sentiment.score,
+        magnitude=sentiment.magnitude,
     )
+    results ={}
+    results["overallResults"] =overallResults
+
     for k, v in results.items():
         print(f"{k:10}: {v}")
 
@@ -130,7 +142,8 @@ def analyze_text_sentiment(text):
         item["sentiment magnitude"]=sentence.sentiment.magnitude
         sentence_sentiment.append(item)
 
-    return sentence_sentiment
+    results["sentence_sentiment"] = sentence_sentiment
+    return results
 
 
 
