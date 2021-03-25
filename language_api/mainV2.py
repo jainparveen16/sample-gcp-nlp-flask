@@ -33,8 +33,15 @@ def homepage():
 
 @app.route("/upload", methods=["GET", "POST"])
 def upload_text():
-    text = request.form["text"]
+#     text = request.form["text"]
 
+    client = storage.Client()
+    bucket = client.get_bucket('gee-nlp')
+    blob = bucket.get_blob('New_Article.txt')
+    downloaded_blob = blob.download_as_string()
+    downloaded_blob_1  = downloaded_blob.decode('utf-8', 'ignore')
+    downloaded_blob_1 = downloaded_blob_1.replace("\r\n\r\n"," ")
+    text = downloaded_blob_1
     # Analyse sentiment using Sentiment API call
     #sentiment = analyze_text_sentiment(text)[0].get('sentiment score')
 
@@ -160,6 +167,7 @@ def gcp_plot_sentiments(df_sentiment):
     ax.set_ylabel("Sentiment Magnitude")
 
     plt.show()
+
 if __name__ == "__main__":
     # This is used when running locally. Gunicorn is used to run the
     # application on Google App Engine. See entrypoint in app.yaml.
