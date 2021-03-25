@@ -170,6 +170,7 @@ def gcp_plot_sentiments(df_sentiment):
     plt.title("Sentiment Score and Magnitude 2-D Distribution")
     ax.set_xlabel("Sentiment Score")
     ax.set_ylabel("Sentiment Magnitude")
+    fig.savefig('my_plot.png')
 
     plt.show()
 
