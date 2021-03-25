@@ -33,11 +33,11 @@ def homepage():
 
 @app.route("/upload", methods=["GET", "POST"])
 def upload_text():
-#     text = request.form["text"]
+    file_name = request.form["text"]
 
     client = storage.Client()
     bucket = client.get_bucket('gee-nlp')
-    blob = bucket.get_blob('New_Article.txt')
+    blob = bucket.get_blob(file_name)
     downloaded_blob = blob.download_as_string()
     downloaded_blob_1  = downloaded_blob.decode('utf-8', 'ignore')
     downloaded_blob_1 = downloaded_blob_1.replace("\r\n\r\n"," ")
