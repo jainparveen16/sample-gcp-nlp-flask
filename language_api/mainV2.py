@@ -4,8 +4,13 @@ import os
 
 from flask import Flask, redirect, render_template, request
 
-from google.cloud import datastore
+from google.cloud import storage
 from google.cloud import language_v1 as language
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+from matplotlib import style
+from google.cloud import language_v1
+import time
 
 import pandas as pd
 #Print all columns and all rows in a panda dataframe
