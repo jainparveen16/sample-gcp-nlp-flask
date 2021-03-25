@@ -7,7 +7,10 @@ from flask import Flask, redirect, render_template, request
 from google.cloud import datastore
 from google.cloud import language_v1 as language
 
-
+import pandas as pd
+#Print all columns and all rows in a panda dataframe
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
 
 
 app = Flask(__name__)
