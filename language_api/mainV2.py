@@ -29,7 +29,7 @@ def homepage():
     # # Use the Cloud Datastore client to fetch information from Datastore
     # Query looks for all documents of the 'Sentences' kind, which is how we
     # store them in upload_text()
-    query = datastore_client.query(kind="Sentences")
+    query = datastore_client.query(kind="gee-nlp-demo")
     text_entities = list(query.fetch())
 
     # # Return a Jinja2 HTML template and pass in text_entities as a parameter.
@@ -53,9 +53,12 @@ def upload_text():
     results = analyze_text_sentiment(text)
     print("results: ",results)
     sentiment = results["overallResults"].get('score')
+    magnitude = results["overallResults"].get('magnitude')
     print("sentiment in upload_text(): ",sentiment)
     
     sentence_sentiment = results["sentence_sentiment"]
+    classify_document  = gcp_classify_text(downloaded_blob_1)
+    print("classify_document: ",classify_document)
 
     df_sentiment = pd.DataFrame(sentence_sentiment)
     df_sentiment
@@ -77,10 +80,10 @@ def upload_text():
     current_datetime = datetime.now()
 
     # The kind for the new entity. This is so all 'Sentences' can be queried.
-    kind = "Sentences"
+    kind = "gee-nlp-demo"
 
     # Create the Cloud Datastore key for the new entity.
-    key = datastore_client.key(kind, 'sample_task')
+    key = datastore_client.key(kind, 'sample_task1')
 
     # Alternative to above, the following would store a history of all previous requests as no key
     # identifier is specified, only a 'kind'. Datastore automatically provisions numeric ids.
@@ -91,7 +94,11 @@ def upload_text():
     entity["file_name"] = file_name
     entity["timestamp"] = current_datetime
     entity["sentiment"] = overall_sentiment
-
+    entity["classify_document"] = classify_document
+    entity["magnitude"] = magnitude
+    
+    
+    print("entity: ",entity)
     # Save the new entity to Datastore.
     datastore_client.put(entity)
 
@@ -142,6 +149,13 @@ def analyze_text_sentiment(text):
     return results
 
 
+def gcp_classify_text(text):
+    client = language.LanguageServiceClient()
+    document = language.Document(content=text, type_=language.Document.Type.PLAIN_TEXT)
+    response = client.classify_text(document=document)
+    #response = client.classify(document=document)
+    for category in response.categories:
+        return category.name
 
 def gcp_plot_sentiments(df_sentiment):
     # Plot Sentiment Scores
@@ -188,3 +202,5 @@ if __name__ == "__main__":
     # application on Google App Engine. See entrypoint in app.yaml.
     
     app.run(host="127.0.0.1", port=8080, debug=True)
+
+
