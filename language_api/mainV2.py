@@ -9,6 +9,7 @@ from google.cloud import language_v1 as language
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from matplotlib import style
+from google.cloud import datastore
 import time
 
 import pandas as pd
